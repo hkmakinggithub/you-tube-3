@@ -1,0 +1,110 @@
+.container_channel_edit {
+    background-color: rgba(86, 86, 86, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 600;
+  }
+  
+  /* Modal Content */
+  .container_channel_edit_2 {
+    background-color: #222121;
+    width: 22rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    text-align: center;
+    max-width: 90%;
+    overflow: hidden;
+  }
+  
+  .container_channel_edit_2 h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+  }
+  
+  .container_channel_edit_2 p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+  }
+  
+  .form_group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form_control {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #424040;
+    border-radius: 0.3rem;
+    font-size: 1.2rem;
+  }
+  
+  .submitBtn {
+    background-color: #444444;
+    color: #ffffff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.1s ease;
+  }
+  
+  .submitBtn:hover {
+    background-color: #5c5d5d;
+    color: white;
+
+    
+  }
+  
+  .closeBtn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 600px) {
+    .container_channel_edit_2 {
+      width: 90%;
+      max-width: 100%;
+      padding: 1rem;
+    }
+    
+    .container_channel_edit_2 h1 {
+      font-size: 1.5rem;
+    }
+    
+    .container_channel_edit_2 p {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    
+    .form-control {
+      font-size: 1rem;
+      padding: 0.5rem;
+    }
+    
+    .submitBtn {
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+    }
+    
+    .closeBtn {
+      font-size: 1.5rem;
+    }
+  }
+  

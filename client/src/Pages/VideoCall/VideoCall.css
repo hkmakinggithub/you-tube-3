@@ -1,0 +1,63 @@
+.Header_video_call {
+  font-size: 40px;
+  font-style:italic;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.Input_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.Input_section input {
+  width: 100%;
+  max-width: 400px;
+  padding: 14px;
+  margin: 10px 0;
+  border: 2px solid #fdfdfd;
+  border-radius: 6px;
+  font-size: 18px;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  outline: none;
+  background-color: #575757;
+}
+
+.Input_section input:focus {
+  border-color: #575757;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+.Channel_btn_button_3 {
+  height: 48px; 
+  padding: 0 24px;
+  border-radius: 24px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #4c4c4c;
+  color: #ffffff;
+  font-size: 16px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.Channel_btn_button_3:hover {
+  background-color: #6c6b6b;
+}
+
+.Channel_btn_button_3:focus {
+  outline: none; 
+}
+
+.Channel_btn_button_3:disabled {
+  opacity: 0.6; 
+  cursor: not-allowed; 
+}

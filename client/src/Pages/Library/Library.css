@@ -1,0 +1,343 @@
+.conatienr_home_page {
+  display: flex;
+  background-color: #0c0909;
+  height: 100%;
+  overflow: hidden;
+  position: sticky;
+}
+.Channel_detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #363636;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.Library_account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Current_logo {
+  width: 70px;
+  height: 70px;
+  background-color: #fffcfc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.channel_Name {
+  text-align: center;
+  color: white;
+}
+
+.Channel_title h6 {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.Channel_Id {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.Channel_Id span {
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.Channel_id_dot {
+  width: 5px;
+  height: 5px;
+  background: #a72525;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.Channel_id_b {
+  font-size: 14px;
+  color: #fdfdfd;
+  cursor: pointer;
+}
+
+.channel_btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Channel_btn_button {
+  background: #000000;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 15px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.Channel_btn_button:hover {
+  background: #3e3f3f;
+  color: black;
+}
+
+.Library_history_contaienr {
+  background: #414040;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.historyname {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.history_title {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.History_Icon {
+  display: flex;
+  align-items: center;
+}
+
+.History_Icon p {
+  margin-left: 10px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.histoty_btn {
+  display: flex;
+  align-items: center;
+}
+
+.histoty_btn_button {
+  background: #000000;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.histoty_btn_button:hover {
+  background: #434444;
+}
+
+.Histroy_content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.history_video_1 {
+  flex: 1 1 calc(33.333% - 20px);
+  background: #010101;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.history_video {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.Video_detail_libray h4 {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.Video_detail_libray p {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.div_button {
+  background: #000000;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.div_button:hover {
+  color: #323131;
+  height: 25px;
+}
+.Channel_id_b {
+  color: #525050;
+}
+.Channel_id_dot {
+  width: 4px;
+  height: 4px;
+  background-color: #525050;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1200px) {
+  .history_video {
+    width: 45%;
+    height: auto;
+  }
+
+  .Video_detail_libray {
+    width: 45%;
+  }
+}
+
+/* Media Query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .conatienr_home_page {
+    flex-direction: column;
+  }
+
+  .Channel_detail {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .Library_account {
+    margin-bottom: 15px;
+  }
+
+  .Current_logo {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+  }
+
+  .channel_Name {
+    margin-top: 10px;
+  }
+
+  .channel_btn {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Channel_btn_button {
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px 12px;
+  }
+
+  .Library_history_contaienr {
+    padding: 15px;
+  }
+
+  .historyname {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .histoty_btn {
+    margin-top: 10px;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .histoty_btn_button {
+    width: 100%;
+  }
+
+  .Histroy_content {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .history_video_1 {
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .conatienr_home_page_2 {
+    padding: 10px;
+  }
+
+  .Channel_detail {
+    padding: 10px;
+  }
+
+  .Current_logo {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .Channel_title h6 {
+    font-size: 16px;
+  }
+
+  .Channel_Id {
+    flex-direction: column;
+  }
+
+  .Channel_Id span {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  .channel_btn {
+    margin-top: 15px;
+  }
+
+  .Channel_btn_button {
+    padding: 6px 10px;
+  }
+
+  .Library_history_contaienr {
+    padding: 10px;
+  }
+
+  .history_title p {
+    font-size: 16px;
+  }
+
+  .History_Icon p {
+    font-size: 16px;
+  }
+
+  .histoty_btn_button {
+    padding: 4px 8px;
+  }
+
+  .Video_detail_libray h4 {
+    font-size: 14px;
+  }
+
+  .Video_detail_libray p {
+    font-size: 12px;
+  }
+
+  .div_button {
+    padding: 4px 8px;
+  }
+}
